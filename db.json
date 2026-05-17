@@ -1,0 +1,65 @@
+{
+    "storeInfo": [
+        {
+            "name": "Novel Haven",
+            "description": "Your one stop online bookstore for novels of every genre!",
+            "phoneNumber": "0712 345678"
+        }
+    ],
+    "novels": [
+        {
+            "id": 1,
+            "title": "A Little Life",
+            "author": "Hanya Yanagihara",
+            "genre": "Literary Fiction",
+            "description": "A deeply emotional story following four friends in New York City, exploring trauma, friendship, and the complexities of life.",
+            "price": 2000,
+            "cover": "https://i.pinimg.com/736x/93/50/fc/9350fc92b7253db9b934a8bac6d1848f.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Still Me",
+            "author": "Jojo Moyes",
+            "genre": "Romance / Contemporary Fiction",
+            "description": "The third book in the Me Before You series, following Louisa Clark as she navigates life, love, and personal growth in New York.",
+            "price": 1600,
+            "cover": "https://i.pinimg.com/1200x/81/3f/46/813f46747772b6451eb1cca942392d38.jpg"
+          },
+        {
+            "id": 3,
+            "title": "Black Girls Must Have It All",
+            "author": "Jayne Allen",
+            "genre": "Contemporary fiction",
+            "description": "A powerful and witty contemporary novel exploring the beautiful chaos of modern womanhood, career pressures, and the unbreakable bonds of female friendship.",
+            "price": 1600,
+            "cover": "https://i.pinimg.com/736x/9b/80/e4/9b80e4e15c830e5affdd3e4a1d7c2fdb.jpg"
+        },
+        {
+            "id": 4,
+            "title": "The Power of Now",
+            "author": "Eckhart Tolle",
+            "genre": "Spirituality",
+            "description": "A guide to living fully in the present moment, letting go of past and future worries, and finding inner peace.",
+            "price": 1800,
+            "cover": "https://i.pinimg.com/1200x/5b/0f/f6/5b0ff6a1957c5b9c74aef36332f3585a.jpg"
+        },
+        {
+            "id": 5,
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "genre": "Philosophical Fiction",
+            "description": "A young shepherd's journey across deserts in search of his personal legend and the true meaning of life.",
+            "price": 1500,
+            "cover": "https://i.pinimg.com/1200x/db/b5/4f/dbb54f0e73594f0694badac77a89853a.jpg"
+        },
+        {
+            "id": 6,
+            "title": "And So I Roar",
+            "author": "Abi Daré",
+            "genre": "Literary / Contemporary Fiction",
+            "description": "A story about finding your voice, courage, and identity while navigating personal challenges and societal pressures.",
+            "price": 1600,
+            "cover": "https://i.pinimg.com/1200x/38/b9/56/38b9569ef75d13d90e89e018f53fdb28.jpg"
+          }
+    ]
+}

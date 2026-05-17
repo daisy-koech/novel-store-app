@@ -1,0 +1,39 @@
+.landing {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f5f5f5;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+.landing-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+.landing-description {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.landing-contact {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: #333;
+  font-weight: bold;
+}
+.landing-buttons button {
+  margin: 0 10px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #333;
+  transition: 0.3s;
+}
+
+.landing-buttons button:hover {
+  background-color: #555;
+}
