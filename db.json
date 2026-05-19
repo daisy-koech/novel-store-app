@@ -1,11 +1,16 @@
 {
     "storeInfo": [
         {
-            "name": "Novel Haven",
-            "description": "Your one stop online bookstore for novels of every genre!",
-            "phoneNumber": "0712 345678"
+          "name": "Novel Haven",
+          "description": "Your one-stop online bookstore for novels of every genre!",
+          "phoneNumber": "0712 345678",
+          "email": "info@novelhaven.com",
+          "address": "123 Jacaranda Street, Lodwar, Kenya",
+          "facebook": "https://facebook.com/novelhaven",
+          "instagram": "https://instagram.com/novelhaven",
+          "hours": "Mon-Sat 9am-7pm, Sun 10am-5pm"
         }
-    ],
+      ],
     "novels": [
         {
             "id": 1,

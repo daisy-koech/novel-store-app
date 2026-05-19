@@ -1,39 +1,55 @@
-.landing {
-  text-align: center;
-  padding: 80px 20px;
-  background-color: #f5f5f5;
-  margin: 30px auto;
-  max-width: 800px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+.landing-container {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fefefe;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .landing-title {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  color: #333;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #222;
 }
 .landing-description {
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-  line-height: 1.5;
-  color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #555;
 }
-
-.landing-contact {
-  font-size: 1rem;
-  margin-bottom: 25px;
-  color: #333;
-  font-weight: bold;
+.landing-contact-info p {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
 }
+  
+.landing-social a {
+    margin: 0 10px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 500;
+}
+.landing-social a:hover {
+    text-decoration: underline;
+} 
+.landing-buttons {
+    margin-top: 30px;
+}
+  
 .landing-buttons button {
-  margin: 0 10px;
-  padding: 12px 20px;
-  font-size: 1rem;
-  border-radius: 8px;
-  border: none;
-  background-color: #333;
-  transition: 0.3s;
+    margin: 0 10px;
+    padding: 12px 22px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
 }
-
 .landing-buttons button:hover {
-  background-color: #555;
+    background-color: #555;
 }

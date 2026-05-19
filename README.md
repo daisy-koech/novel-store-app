@@ -20,10 +20,9 @@
 - Install dependencies
 - Start JSON Server
 - Start React App using 'npm run dev'
-- Live site is hosted on vercek
+- Live site is hosted on vercel
 
 ## Future Improvements
 - Implement PATCH and DELETE functionality.
 - Add user authentication.
 - Enhance UI with Tailwind CSS or Material UI.
-- Include hero images or banners on the landing page.
