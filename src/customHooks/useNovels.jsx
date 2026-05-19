@@ -4,7 +4,7 @@ function useNovels() {
     const [novels, setNovels] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/novels")
+        fetch("https://novel-store-backend-repo.onrender.com/novels")
         .then((response) => {
             if(!response.ok) {
                 throw new Error("Could not load the book data. Please try again later")
@@ -17,7 +17,7 @@ function useNovels() {
 
     //POST
     function addNovel(novel) {
-        return fetch("http://localhost:5000/novels", {
+        return fetch("https://novel-store-backend-repo.onrender.com", {
             method: "POST",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(novel)
@@ -28,7 +28,7 @@ function useNovels() {
 
     //PATCH
     function updateNovel(id, updates) {
-        return fetch(`http://localhost:5000/novels/${id}`, {
+        return fetch(`https://novel-store-backend-repo.onrender.com/${id}`, {
             method: "PATCH",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(updates)

@@ -5,7 +5,7 @@ function LandingPage() {
   const [storeInfo, setStoreInfo] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/storeInfo")
+    fetch("https://novel-store-backend-repo.onrender.com/storeInfo")
       .then(res => res.json())
       .then(data => setStoreInfo(data[0]))
       .catch(err => console.error("Failed to fetch store info:", err));
