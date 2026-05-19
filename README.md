@@ -22,6 +22,9 @@
 - Start React App using 'npm run dev'
 - Live site is hosted on vercel
 
+## Backend
+- Access the deployed server here https://novel-store-backend-repo.onrender.com
+
 ## Future Improvements
 - Implement PATCH and DELETE functionality.
 - Add user authentication.
